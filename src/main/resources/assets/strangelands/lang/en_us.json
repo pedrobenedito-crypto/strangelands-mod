@@ -1,0 +1,8 @@
+{
+  "block.strangelands.strange_liquid_block": "Strange Liquid",
+  "block.strangelands.glow_bloom": "Glow Bloom",
+  "item.strangelands.strange_liquid_bucket": "Strange Liquid Bucket",
+  "item.strangelands.sporeling_spawn_egg": "Sporeling Spawn Egg",
+  "entity.strangelands.sporeling": "Sporeling",
+  "message.strangelands.no_dimension": "The strange liquid ripples, but nothing happens..."
+}

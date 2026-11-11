@@ -1,0 +1,11 @@
+{
+  "type": "strangelands:strange_realm",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "strangelands:strange_realm",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "strangelands:strange_fields"
+    }
+  }
+}

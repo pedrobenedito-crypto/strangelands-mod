@@ -1,0 +1,50 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "effects": {
+    "sky_color": 9858815,
+    "fog_color": 13476095,
+    "water_color": 11554303,
+    "water_fog_color": 5906070,
+    "grass_color": 6089672,
+    "foliage_color": 16745160
+  },
+  "creature_spawn_probability": 0.35,
+  "spawners": {
+    "monster": [],
+    "creature": [
+      {
+        "type": "strangelands:sporeling",
+        "weight": 12,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "strangelands:strange_tree",
+      "strangelands:glow_bloom_patch",
+      "strangelands:strange_grass_patch"
+    ],
+    []
+  ]
+}
