@@ -30,7 +30,7 @@
         "type": "minecraft:matching_blocks",
         "blocks": "minecraft:air"
       },
-      "max_steps": 40
+      "max_steps": 32
     },
     {
       "type": "minecraft:block_predicate_filter",

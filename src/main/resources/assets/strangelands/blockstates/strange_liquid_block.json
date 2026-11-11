@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "level=0": {
+      "model": "strangelands:block/strange_liquid_block"
+    },
+    "level=1": {
+      "model": "strangelands:block/strange_liquid_block"
+    },
+    "level=2": {
+      "model": "strangelands:block/strange_liquid_block"
+    },
+    "level=3": {
+      "model": "strangelands:block/strange_liquid_block"
+    },
+    "level=4": {
+      "model": "strangelands:block/strange_liquid_block"
+    },
+    "level=5": {
+      "model": "strangelands:block/strange_liquid_block"
+    },
+    "level=6": {
+      "model": "strangelands:block/strange_liquid_block"
+    },
+    "level=7": {
+      "model": "strangelands:block/strange_liquid_block"
+    },
+    "level=8": {
+      "model": "strangelands:block/strange_liquid_block"
+    },
+    "level=9": {
+      "model": "strangelands:block/strange_liquid_block"
+    },
+    "level=10": {
+      "model": "strangelands:block/strange_liquid_block"
+    },
+    "level=11": {
+      "model": "strangelands:block/strange_liquid_block"
+    },
+    "level=12": {
+      "model": "strangelands:block/strange_liquid_block"
+    },
+    "level=13": {
+      "model": "strangelands:block/strange_liquid_block"
+    },
+    "level=14": {
+      "model": "strangelands:block/strange_liquid_block"
+    },
+    "level=15": {
+      "model": "strangelands:block/strange_liquid_block"
+    }
+  }
+}
