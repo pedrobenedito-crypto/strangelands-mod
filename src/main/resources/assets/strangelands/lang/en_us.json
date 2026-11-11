@@ -4,5 +4,7 @@
   "item.strangelands.strange_liquid_bucket": "Strange Liquid Bucket",
   "item.strangelands.sporeling_spawn_egg": "Sporeling Spawn Egg",
   "entity.strangelands.sporeling": "Sporeling",
-  "message.strangelands.no_dimension": "The strange liquid ripples, but nothing happens..."
+  "message.strangelands.no_dimension": "The strange liquid ripples, but nothing happens...",
+  "entity.strangelands.skyray": "Skyray",
+  "item.strangelands.skyray_spawn_egg": "Skyray Spawn Egg"
 }

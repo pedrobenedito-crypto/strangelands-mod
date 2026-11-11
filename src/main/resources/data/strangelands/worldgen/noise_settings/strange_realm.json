@@ -49,15 +49,15 @@
           "type": "minecraft:min",
           "argument1": {
             "type": "minecraft:y_clamped_gradient",
-            "from_y": 20,
-            "to_y": 58,
+            "from_y": 44,
+            "to_y": 84,
             "from_value": -3.0,
             "to_value": -0.2
           },
           "argument2": {
             "type": "minecraft:y_clamped_gradient",
-            "from_y": 72,
-            "to_y": 108,
+            "from_y": 100,
+            "to_y": 124,
             "from_value": -0.2,
             "to_value": -3.0
           }

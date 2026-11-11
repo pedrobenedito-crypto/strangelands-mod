@@ -6,7 +6,9 @@ import com.strangelands.registry.ModFluids;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.client.event.EntityRenderersEvent;
+import net.minecraftforge.client.event.RegisterDimensionSpecialEffectsEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -25,10 +27,17 @@ public class ClientModEvents {
     @SubscribeEvent
     public static void registerLayers(EntityRenderersEvent.RegisterLayerDefinitions event) {
         event.registerLayerDefinition(SporelingRenderer.LAYER, SporelingModel::createBodyLayer);
+        event.registerLayerDefinition(SkyrayRenderer.LAYER, SkyrayModel::createBodyLayer);
     }
 
     @SubscribeEvent
     public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
         event.registerEntityRenderer(ModEntities.SPORELING.get(), SporelingRenderer::new);
+        event.registerEntityRenderer(ModEntities.SKYRAY.get(), SkyrayRenderer::new);
+    }
+
+    @SubscribeEvent
+    public static void registerEffects(RegisterDimensionSpecialEffectsEvent event) {
+        event.register(new ResourceLocation(StrangelandsMod.MOD_ID, "red_sky"), new RedSkyEffects());
     }
 }

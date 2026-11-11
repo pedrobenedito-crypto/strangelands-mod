@@ -20,7 +20,7 @@ public class ForgeBusEvents {
         if (player.tickCount % 10 != 0) {
             return;
         }
-        if (player.level().dimension().equals(ModDimensions.STRANGE_REALM) && player.getY() < -20.0D) {
+        if (player.level().dimension().equals(ModDimensions.STRANGE_REALM) && player.getY() < 30.0D) {
             StrangeTeleporter.rescue(player);
         }
     }

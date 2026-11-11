@@ -30,7 +30,7 @@ public final class StrangeTeleporter {
     private static final String ORIGIN_KEY = "strangelands_origin";
 
     /** Centre of the arrival island (top layer of grass is at this Y). */
-    public static final BlockPos PLATFORM = new BlockPos(0, 64, 0);
+    public static final BlockPos PLATFORM = new BlockPos(0, 96, 0);
 
     private StrangeTeleporter() {
     }

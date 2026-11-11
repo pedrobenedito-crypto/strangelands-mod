@@ -23,4 +23,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> SPORELING_SPAWN_EGG = ITEMS.register("sporeling_spawn_egg",
             () -> new ForgeSpawnEggItem(ModEntities.SPORELING, 0x7C4DFF, 0x5CFFD6, new Item.Properties()));
+
+    public static final RegistryObject<Item> SKYRAY_SPAWN_EGG = ITEMS.register("skyray_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.SKYRAY, 0xC81E1E, 0x5CFFD6, new Item.Properties()));
 }

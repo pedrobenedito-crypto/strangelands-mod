@@ -1,6 +1,7 @@
 package com.strangelands.registry;
 
 import com.strangelands.StrangelandsMod;
+import com.strangelands.entity.SkyrayEntity;
 import com.strangelands.entity.SporelingEntity;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;
@@ -18,4 +19,10 @@ public class ModEntities {
                     .sized(0.6F, 1.0F)
                     .clientTrackingRange(8)
                     .build(new ResourceLocation(StrangelandsMod.MOD_ID, "sporeling").toString()));
+
+    public static final RegistryObject<EntityType<SkyrayEntity>> SKYRAY = ENTITIES.register("skyray",
+            () -> EntityType.Builder.of(SkyrayEntity::new, MobCategory.AMBIENT)
+                    .sized(1.2F, 0.5F)
+                    .clientTrackingRange(10)
+                    .build(new ResourceLocation(StrangelandsMod.MOD_ID, "skyray").toString()));
 }

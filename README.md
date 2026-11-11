@@ -2,7 +2,8 @@
 
 Uma dimensão nova, parecida com o The End (ilhas flutuantes sobre o vazio e céu do End), mas com **blocos de grama**
 e uma vida diferente do habitual: árvores de tronco cinza com copa rosa, flores que brilham, grama de cor turquesa
-e os **Esporinhos** (criaturas roxas que flutuam devagar ao cair).
+os **Esporinhos** (criaturas roxas que flutuam devagar ao cair) e as **Arraias Celestes**, criaturas voadoras que planam pelo céu.
+O céu é **vermelho**, e há **poças do líquido roxo** espalhadas pelas ilhas (entrar em uma delas também leva você de volta).
 
 ## Como chegar na dimensão
 1. Crie o **Balde de Líquido Estranho** (receita sem forma): balde de água + fragmento de ametista + fruta de chorus.
@@ -11,8 +12,9 @@ e os **Esporinhos** (criaturas roxas que flutuam devagar ao cair).
 4. Na ilha onde você chega existe uma poça do mesmo líquido: **entre nela para voltar** ao ponto de onde saiu
    (se o ponto de origem não for conhecido, volta para o spawn do mundo).
 - Se cair no vazio da dimensão, você é levado de volta para a ilha inicial em vez de morrer.
-- Para testar direto: `/execute in strangelands:strange_realm run tp @s 0 66 0`
-- Itens de criativo: balde, Flor Brilhante e ovo de spawn do Esporinho.
+- Para testar direto: `/execute in strangelands:strange_realm run tp @s 0 98 0`
+- Itens de criativo: balde, Flor Brilhante e ovos de spawn do Esporinho e da Arraia Celeste.
+- Mundos antigos: chunks da dimensão já gerados mantêm o visual antigo; para ver tudo novo, crie um mundo novo ou apague a pasta `DIM-strangelands...` do save.
 
 ## Build online no GitHub
 1. Crie um repositório novo e envie todo o conteúdo desta pasta (incluindo `.github`).
